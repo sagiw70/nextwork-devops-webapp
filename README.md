@@ -41,17 +41,11 @@ The following components were connected:
 
 ## Challenges Encountered
 
-
-- **Elastic IP setup- **: Without it, I couldn't reliably connect VS Code to the EC2 instance due to the public IP changing after restarts.
-- **Manual CodeArtifact configuration- **: The setup skipped key steps, so I manually created the domain and repository and added missing permissions like sts:GetServiceBearerToken to the CodeBuild role.
-- **CodeDeploy agent troubleshooting- **: Required SSH access to the EC2 instance, checking agent status and reading logs under /opt/codedeploy-agent/deployment-root/deployment-logs to debug silent 
-  deployment failures.
-- **IAM role misconfigurations- **: Fixed missing permissions such as codedeploy:GetApplicationRevision and attached the correct IAM instance profile to the EC2 server.
-- **Deployment group filtering issues- **: Solved by assigning the correct EC2 tag (e.g., Name: NextWorkCodeDeployEC2Stack::WebServer) to match the deployment group.
-- **SSH access issues- **: Resolved by editing the EC2 security group to allow inbound traffic on port 22 and meeting EC2 Instance Connect prerequisites.
-- **Accidental nested Git repo- **: Removed the embedded repository and added it to .gitignore to clean up the project structure.
-
-
-
-
+- **Elastic IP setup**: Without it, I couldn't reliably connect VS Code to the EC2 instance due to the public IP changing after restarts.  
+- **Manual CodeArtifact configuration**: The setup skipped key steps, so I manually created the domain and repository and added missing permissions like `sts:GetServiceBearerToken` to the CodeBuild role.  
+- **CodeDeploy agent troubleshooting**: Required SSH access to the EC2 instance, checking agent status and reading logs under `/opt/codedeploy-agent/deployment-root/deployment-logs` to debug silent deployment failures.  
+- **IAM role misconfigurations**: Fixed missing permissions such as `codedeploy:GetApplicationRevision` and attached the correct IAM instance profile to the EC2 server.  
+- **Deployment group filtering issues**: Solved by assigning the correct EC2 tag (e.g., `Name: NextWorkCodeDeployEC2Stack::WebServer`) to match the deployment group.  
+- **SSH access issues**: Resolved by editing the EC2 security group to allow inbound traffic on port 22 and meeting EC2 Instance Connect prerequisites.  
+- **Accidental nested Git repo**: Removed the embedded repository and added it to `.gitignore` to clean up the project structure.  
 
