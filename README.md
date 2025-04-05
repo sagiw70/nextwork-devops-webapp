@@ -1,6 +1,7 @@
 # Nextwork DevOps CI/CD Project
 
-This project showcases a full CI/CD pipeline built on AWS using CodePipeline, CodeBuild, CodeDeploy, CodeArtifact, EC2 and GitHub. The goal was to automate the deployment of a Java web application (.war) with minimal manual intervention.
+This project was built as part of the [Nextwork 7-Day DevOps Challenge](https://learn.nextwork.org/projects/aws-devops-codepipeline-updated).  
+It was a great opportunity to reinforce my cloud and CI/CD knowledge by building a complete deployment pipeline – from GitHub to EC2 – through hands-on learning.
 
 This project was created as a hands-on follow-up to my AWS Solutions Architect Associate certification to solidify concepts through practice.
 
