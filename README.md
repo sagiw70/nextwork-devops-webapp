@@ -1,4 +1,4 @@
-# Nextwork DevOps CI/CD Project
+# Hands-On AWS CI/CD Project 
 
 I built this project to apply my AWS knowledge in a hands-on way after completing the AWS Solutions Architect Associate certification.
 It features a complete CI/CD pipeline from GitHub to a live EC2 instance, using services like CodePipeline, CodeBuild, CodeDeploy, and CodeArtifact – all deployed on AWS.
