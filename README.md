@@ -1,9 +1,10 @@
 # Nextwork DevOps CI/CD Project
 
-This project was built as part of the [Nextwork 7-Day DevOps Challenge](https://learn.nextwork.org/projects/aws-devops-codepipeline-updated).  
-It was a great opportunity to reinforce my cloud and CI/CD knowledge by building a complete deployment pipeline – from GitHub to EC2 – through hands-on learning.
+I built this project to apply my AWS knowledge in a hands-on way after completing the AWS Solutions Architect Associate certification.
+It features a complete CI/CD pipeline from GitHub to a live EC2 instance, using services like CodePipeline, CodeBuild, CodeDeploy, and CodeArtifact – all deployed on AWS.
 
-This project was created as a hands-on follow-up to my AWS Solutions Architect Associate certification to solidify concepts through practice.
+The idea was inspired by the Nextwork 7-Day DevOps Challenge, which provided a solid starting point. I expanded on it to gain practical experience with real-world deployment issues and AWS service integrations.
+
 
 ---
 
