@@ -18,7 +18,7 @@ The idea was inspired by the Nextwork 7-Day DevOps Challenge, which provided a s
 
 ## Tools and Services Used
 
-- **GitHub** – Source control.
+- **GitHub** - Source control.
 - **AWS CodePipeline** - Orchestrates the CI/CD flow.
 - **AWS CodeBuild** - Compiles the Maven project and builds the `.war` file.
 - **AWS CodeDeploy** - Deploys the `.war` file to EC2.
