@@ -1,8 +1,6 @@
 # Hands-On AWS CI/CD Project 
-
 This project implements a complete CI/CD pipeline on AWS for deploying a Java web application to an EC2 instance running Tomcat.
 I built it to gain real-world experience integrating AWS developer tools, troubleshooting deployments, and understanding production-like cloud workflows.
----
 
 ## Objectives
 
