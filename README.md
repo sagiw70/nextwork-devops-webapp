@@ -1,11 +1,7 @@
 # Hands-On AWS CI/CD Project 
 
-I built this project to apply my AWS knowledge in a hands-on way after completing the AWS Solutions Architect Associate certification.
-It features a complete CI/CD pipeline from GitHub to a live EC2 instance, using services like CodePipeline, CodeBuild, CodeDeploy, and CodeArtifact - all deployed on AWS.
-
-The idea was inspired by the Nextwork 7-Day DevOps Challenge, which provided a solid starting point. I expanded on it to gain practical experience with real-world deployment issues and AWS service integrations.
-
-
+This project implements a complete CI/CD pipeline on AWS for deploying a Java web application to an EC2 instance running Tomcat.
+I built it to gain real-world experience integrating AWS developer tools, troubleshooting deployments, and understanding production-like cloud workflows.
 ---
 
 ## Objectives
